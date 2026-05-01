@@ -9,9 +9,9 @@
 | File | Description |
 |---|---|
 | `01_main_analysis.R` | All main-text tables and figures: Table 1, Table 2, Table 3, and Figure 1 |
-| `02_group_exposure.R` | P* exposure indices, Scheffé tests → Table 4, Figure 2 |
-| `main_data.csv` | Analytic dataset *(deposited separately in repository)* |
-| `raw_neighborhood_chars.csv` | Raw neighborhood characteristics *(deposited separately)* — required by `01_main_analysis.R` for Table 2 only |
+| `02_group_exposure.R` | P* exposure indices, Scheffé tests: Table 4, Figure 2 |
+| `main_data.csv` | Analytic dataset |
+| `raw_neighborhood_chars.csv` | Raw neighborhood characteristics — required by `01_main_analysis.R` for Table 2 only |
 
 Outputs are written to an `outputs/` subdirectory that is created automatically.
 
