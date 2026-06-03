@@ -30,8 +30,8 @@ The sample covers 6,532 census tracts in the principal cities of the 15 largest 
 
 ## How to run
 
-1. Place `main_data.csv` and `raw_neighborhood_chars.csv` in the same directory as the two R scripts (or update `DATA_PATH` / `CHARS_PATH` at the top of each script).
-2. Install required packages (see below).
+1. Place `main_data.csv` and `raw_neighborhood_chars.csv` in the same directory as the two R scripts.
+2. Install required packages (listed below).
 3. Run `01_main_analysis.R` to produce Tables 1–3 and Figure 1.
 4. Run `02_group_exposure.R` to produce Table 4 and Figure 2.
 
@@ -48,11 +48,9 @@ install.packages(c(
 ))
 ```
 
-Tested with R 4.3.x.
-
 ### Computational note
 
-Building the inverse-distance spatial weights matrix (in `01_main_analysis.R`) is memory- and time-intensive. The matrix is automatically cached to `inverse_dist_matrix.rds` after the first run; subsequent runs should load it directly.
+Building the inverse-distance spatial weights matrix (in `01_main_analysis.R`) is memory- and time-intensive. The matrix is automatically cached to `inverse_dist_matrix.rds` after the first run; subsequent runs can load it directly.
 
 ---
 
