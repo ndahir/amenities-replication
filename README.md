@@ -19,12 +19,12 @@ Outputs are written to an `outputs/` subdirectory that is created automatically.
 
 ## Data
 
-The analytic dataset (`main_data.csv`) combines:
+The analytic dataset (`main_data.csv`) combines data from:
 
 - **2013–2017 American Community Survey (ACS)** – racial composition and tract characteristics
-- **National Neighborhood Data Archive (NaNDA)** – daily-life amenity counts (grocery stores, retail, restaurants, banks, civic/religious organisations, medical professionals, libraries, walkability, transit stops)
-- **Child Opportunity Index** – early-childhood education quality, teacher experience
-- **Opportunity Insights** – job density, job proximity, high-skill and high-paying jobs
+- **[National Neighborhood Data Archive (NaNDA)]([url](https://nanda.isr.umich.edu/))** – daily-life amenity counts (grocery stores, retail, restaurants, banks, civic/religious organisations, medical professionals, libraries, walkability, transit stops)
+- **[Child Opportunity Index]([url](https://www.diversitydatakids.org/child-opportunity-index))** – early-childhood education quality, teacher experience
+- **[Opportunity Insights]([url](https://opportunityinsights.org/data/))** – job density, job proximity, high-skill and high-paying jobs
 
 The sample covers 6,532 census tracts in the principal cities of the 15 largest metropolitan statistical areas for Black immigrants in 2015.
 
